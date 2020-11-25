@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ExeMore</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-------- Navbar Section --------->
+        <nav class="navbar navbar-default navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">ExeMore</a>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!------- Product Section --------->
+        <div class="container">
+            <div class="products">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <!------- Gallery Section --------->
+                        <section class="gallery">
+                            <div class="carousel">                               
+                                <input type="radio" id="image1" name="gallery-control" checked>
+                                <input type="radio" id="image2" name="gallery-control">
+                                <input type="radio" id="image3" name="gallery-control">
+                                <input type="radio" id="image4" name="gallery-control">                               
+                                <input type="checkbox" id="fullscreen" name="gallery-fullscreen-control"/>                               
+                                <div class="wrap">
+                                <!------- Add Images Section --------->
+                                    <figure>
+                                        <label for="fullscreen">
+                                        <img src="images/1.jpg" alt="image1"/>
+                                        </label>
+                                    </figure>                                    
+                                    <figure>
+                                        <label for="fullscreen">
+                                        <img src="images/2.jpg" alt="image2"/>
+                                        </label>
+                                    </figure>
+                                    <figure>
+                                        <label for="fullscreen">
+                                        <img src="images/3.jpg" alt="image3" />
+                                        </label>
+                                    </figure>
+                                    <figure>
+                                        <label for="fullscreen">
+                                        <img src="images/4.png" alt="image4"/>
+                                        </label>
+                                    </figure>
+                                </div>
+                                <!------- Add Thumbnails Section --------->
+                                <div class="thumbnails">                               
+                                    <div class="slider">
+                                        <div class="indicator">
+                                        </div>
+                                    </div>                               
+                                    <label for="image1" class="thumb" style="background-image: url('images/1.jpg')"></label>
+                                    <label for="image2" class="thumb" style="background-image: url('images/2.jpg')"></label>
+                                    <label for="image3" class="thumb" style="background-image: url('images/3.jpg')"></label>
+                                    <label for="image4" class="thumb" style="background-image: url('images/4.png')"></label>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <!------- Product Information Section --------->
+                        <h2>Apple Mac 12</h2> <!--Product Name-->
+                        <h5><label>Brand:</label><a href="#">Iphone</a></h5><!--Brand Name-->
+                        <div class="stars"><!--Review Rate-->
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
+                        <p class="price"><span>EGP 3,500</span> +EGP 50 for shipping to Egypt</p><!--Price + Tax-->
+                        <!--Product Important Detail-->
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <ul class="list-unstyled detail">
+                                    <li><label>Material: </label>Cotton</li>
+                                    <li><label>Size:</label>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                large <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">large</a></li>
+                                                <li><a href="#">small</a></li>
+                                                <li><a href="#">Mid</a></li>
+                                            </ul>                                       
+                                        </div>
+                                    </li>
+                                    <li><label>Color:</label> 
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Red <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Red</a></li>
+                                                <li><a href="#">Blue</a></li>
+                                                <li><a href="#">Green</a></li>
+                                            </ul>                                       
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <!--Brief Description-->
+                        <h3>Description</h3>
+                        <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dolore voluptatibus corrupti
+                            quidem! Itaque atque at sapiente obcaecati accusamus dolores laudantium possimus facere,
+                            vel neque illo assumenda in quod? Tenetur!</p>
+                        <!--Add To Cart Button-->
+                        <a class="cart btn">ADD TO CART
+                            <span><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <hr class="betDiv">
+                <!------- All Product Information Section --------->
+                <div class="productDetails">
+                    <div class="row">
+                        <!------- Product Details Section --------->
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <!------- Description Block Section --------->
+                            <div class="block details" id="desc">
+                                <h3>Product Description:</h3>
+                                <img src="images/3.jpg" alt="">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nihil nobis sed eum placeat
+                                    quae culpa reprehenderit eaque libero earum facere repellendus tempora dignissimos, cum dolorum!
+                                    Aliquid libero eveniet dolor!
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nihil nobis sed eum placeat
+                                    quae culpa reprehenderit eaque libero earum facere repellendus tempora dignissimos, cum dolorum!
+                                    Aliquid libero eveniet dolor!
+                                </p>
+                                <img src="images/3.jpg" alt="">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nihil nobis sed eum placeat
+                                    quae culpa reprehenderit eaque libero earum facere repellendus tempora dignissimos, cum dolorum!
+                                    Aliquid libero eveniet dolor!
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nihil nobis sed eum placeat
+                                    quae culpa reprehenderit eaque libero earum facere repellendus tempora dignissimos, cum dolorum!
+                                    Aliquid libero eveniet dolor!
+                                </p>
+                                <hr>
+                                <!------- Spescification Block Section --------->
+                                <div class="block spec" id="spec">
+                                    <h3>Product Details:</h3>
+                                    <ul>
+                                        <li><label>Dimensions:</label>200x200x300 cm</li>
+                                        <li><label>Model No:</label>20050415484</li>
+                                        <li><label>Department:</label>Electronics</li>
+                                        <li><label>Review:</label>
+                                            <div class="stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                        </li>
+                                        <li><label>SKU:</label>XI606MP1CODN3NAFAMZ</li>
+                                        <li><label>Color:</label>Neptune Blue</li>
+                                        <li><label>Main Material:</label>N/A</li>
+                                        <li><label>Model:</label>Redmi Note 7 128GB</li>
+                                        <li><label>Shop Type:</label>Mall</li>
+                                        <li><label>Main Material:</label>N/A</li>
+                                    </ul>
+                                </div>
+                                <hr>
+                                <!------- Customer Review  Section --------->
+                                <div class="block preview" id="feed">
+                                    <h3>Custom Previews & Questions</h3>
+                                    <div class="preview">
+                                        <h4>Great LapTop</h4>
+                                        <div class="stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam, 
+                                            eius ex ea quo obcaecati vitae in blanditiis </p>
+                                    </div>
+                                    <hr>
+                                    <div class="preview">
+                                        <h4>Bad LapTop</h4>
+                                        <div class="stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam, 
+                                            eius ex ea quo obcaecati vitae in blanditiis </p>
+                                    </div>
+                                    <div class="preview">
+                                        <h4>Midium LapTop</h4>
+                                        <div class="stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam, 
+                                            eius ex ea quo obcaecati vitae in blanditiis </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------- Fixed Menu Of Details --------->
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div class="listDet">
+                                <ul class="list-unstyled">
+                                    <li data-scroll="desc"><a>Product Description</a></li>
+                                    <li data-scroll="spec"><a >Product Specification</a></li>
+                                    <li data-scroll="feed"><a >Product FeedBack</a></li>
+                                </ul>
+                                <div class="product">
+                                    <img src="images/1.jpg">
+                                    <h4>Product Name</h4>
+                                    <a class="btn" href="#">ADD TO CART<i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!------- Footer Section --------->
+        <div class="footer">
+            <p><i class="fab fa-copyright"></i>2020 ExeMore Company</p>
+        </div>
+        <!------- Scripts Section --------->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
